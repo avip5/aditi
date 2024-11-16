@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Flying Balloons -->
+        <div class="balloons">
+            <div class="balloon" style="--color: #ff6f61;"></div>
+            <div class="balloon" style="--color: #ffd966;"></div>
+            <div class="balloon" style="--color: #6fd08c;"></div>
+            <div class="balloon" style="--color: #ff85c0;"></div>
+        </div>
+
+        <!-- Panda and Message -->
+        <div class="card">
+            <img src="panda.png" alt="Cute Panda" class="panda">
+            <h1>🎉 Happy Birthday, Lily! 🎂</h1>
+            <p class="message">
+                Dear Lily,<br>
+                You're the sweetest little sister in the world! 🐼<br>
+                May your day be as cute as pandas and as bright as your smile! 💕<br>
+                Let's eat cake and party till the pandas come home! 🎈🎉
+            </p>
+            <button onclick="showConfetti()">Click for Surprise 🎁</button>
+        </div>
+    </div>
+
+    <!-- Confetti Animation -->
+    <canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
